@@ -8,6 +8,6 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v3
-      
-    - name: call-workflow
-      uses: kgopi1/tf_templates/.github/workflows/called_workflow.yaml@main
+
+    #- name: call-workflow
+      #uses: kgopi1/tf_templates/.github/workflows/called_workflow.yaml@main
