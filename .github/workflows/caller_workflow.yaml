@@ -4,5 +4,4 @@ on: push
 
 jobs:
   call-workflow:
-    - name: call-workflow2
-      uses: kgopi1/tf_templates/.github/workflows/called_workflow.yaml@main
+    uses: kgopi1/tf_templates/.github/workflows/called_workflow.yaml@main
