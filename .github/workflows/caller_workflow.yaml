@@ -5,3 +5,8 @@ on: push
 jobs:
   call-workflow:
     uses: kgopi1/tf_templates/.github/workflows/called_workflow.yaml@main
+
+    name: run-simplecli
+    run: |
+      echo "run-simple-cli"
+      
