@@ -4,10 +4,5 @@ on: push
 
 jobs:
   call-workflow:
-    runs-on: ubuntu-latest
-    steps:
-    - name: checkout
-      uses: actions/checkout@v3
-
-    #- name: call-workflow
-      #uses: kgopi1/tf_templates/.github/workflows/called_workflow.yaml@main
+    - name: call-workflow2
+      uses: kgopi1/tf_templates/.github/workflows/called_workflow.yaml@main
