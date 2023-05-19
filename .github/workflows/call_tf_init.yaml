@@ -8,4 +8,5 @@ jobs:
     uses: kgopi1/tf_templates/.github/workflows/terraform_init.yaml@main
 
   tf_plan:
+    needs: [tf_init]
     uses: kgopi1/tf_templates/.github/workflows/terraform_init.yaml@main
