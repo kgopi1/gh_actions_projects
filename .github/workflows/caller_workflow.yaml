@@ -5,5 +5,3 @@ on: push
 jobs:
   call-workflow:
     uses: kgopi1/tf_templates/.github/workflows/called_workflow.yaml@main
-    with:
-      msg: "Apple"
