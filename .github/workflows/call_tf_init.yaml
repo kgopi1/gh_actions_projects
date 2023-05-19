@@ -1,0 +1,11 @@
+name: call-tf-init
+
+on: push
+
+
+jobs:
+  tf_init:
+    uses: kgopi1/tf_templates/.github/workflows/terraform_init.yaml@main
+
+  tf_plan:
+    uses: kgopi1/tf_templates/.github/workflows/terraform_init.yaml@main
