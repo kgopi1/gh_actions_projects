@@ -6,12 +6,13 @@ terraform {
     }
   }
 
-  #  backend "azurerm" {
-  #     resource_group_name  = "storage001"
-  #     storage_account_name = "stg22111"
-  #     container_name       = "sst"
-  #     key                  = "terraform.tfstate"
-  #   }
+  backend "azurerm" {
+    subscription_id      = "7d36b290-05bd-4bc4-a670-89b4e4749eb3"
+    resource_group_name  = "vault-edu"
+    storage_account_name = "kglab02tfstate"
+    container_name       = "cda"
+    key                  = "terraform.tfstate"
+  }
 }
 
 # Configure the Microsoft Azure Provider

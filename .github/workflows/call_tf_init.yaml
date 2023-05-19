@@ -1,4 +1,4 @@
-name: call-tf-init
+name: call-tf
 
 on: push
 
