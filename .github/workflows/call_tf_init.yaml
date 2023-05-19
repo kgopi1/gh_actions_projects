@@ -6,7 +6,9 @@ on: push
 jobs:
   tf_init:
     uses: kgopi1/tf_templates/.github/workflows/terraform_init.yaml@main
+    secrets: inherit
 
   tf_plan:
     needs: [tf_init]
     uses: kgopi1/tf_templates/.github/workflows/terraform_init.yaml@main
+    secrets: inherit
